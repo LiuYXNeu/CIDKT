@@ -32,7 +32,6 @@ CIDKT is implemented based on the algorithm interface of MToP. Therefore, MToP s
 Copy the following file into the corresponding algorithm folder of the MTO Platform:
 
 - `CIDKT.m`
-- `CIDKTNoise.m`
   
 
 Please make sure that the file name is consistent with the class name in the MATLAB code. If you rename the algorithm file, the class name should also be modified accordingly.
@@ -42,7 +41,7 @@ Please make sure that the file name is consistent with the class name in the MAT
 You can run CIDKT from the MTO Platform GUI or command line by selecting the following algorithm name:
 
 ```matlab
-mto('CIDKT140','CEC19_MaTSO1',30,true,50,false,'CIDKT_CEC19SO1');
+mto('CIDKT','WCCI20_MaTSO1',30,true,50,false,'CIDKT_WCCI20SO1');
 ```
 
 ## 4. Recommended experimental setting
