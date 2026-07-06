@@ -59,12 +59,12 @@ The default parameter settings in the released code are:
 MuC      = 2;
 MuM      = 5;
 KTN      = 5;
-Delta0   = 0.5;
+rho0   = 0.5;
 Gap      = 5;
-Lambda0  = 0.5;
+delta0  = 0.5;
 ParaMin  = 0.05;
 ParaMax  = 0.95;
-vartheta = 0.4;
+vartheta = 0.35;
 theta    = 0.5;
 d_star   = 10;
 ```
@@ -74,9 +74,9 @@ The meanings of these parameters are listed below:
 - `MuC`: distribution index of simulated binary crossover
 - `MuM`: distribution index of polynomial mutation
 - `KTN`: number of selected auxiliary tasks for knowledge transfer
-- `Delta0`: initial probability related to transfer strategy selection
+- `rho0`: initial probability related to transfer strategy selection
 - `Gap`: parameter update interval
-- `Lambda0`: initial probability of intra task evolution
+- `delta0`: initial probability of intra task evolution
 - `ParaMin`: lower bound of adaptive parameters
 - `ParaMax`: upper bound of adaptive parameters
 - `vartheta`: direction consistency threshold
